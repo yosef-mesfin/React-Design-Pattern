@@ -1,9 +1,12 @@
 # React-18-Design-Patterns-and-Best-Practices-Fouth-Edition
+
+**!Disclaimer:** This is a book I have been reading and the purpose of this repository is sommething like a public notebook.
 This is the code repository for [React-18-Design-Patterns-and-Best-Practices-Fouth-Edition](https://www.amazon.com/React-Design-Patterns-Best-Practices/dp/1803233109), published by Packt.
 
 **Design, build, and deploy production-ready web applications with React by leveraging industry-best practices**
 
 ## About the book
+
 React helps you work smarter, not harder — but to reap the benefits of this popular JavaScript library and its components, you need a straightforward guide that will teach you how to make the most of it.
 
 React 18 Design Patterns and Best Practices will help you use React effectively to make your applications more flexible, easier to maintain, and improve their performance, while giving your workflow a huge boost. With a better organization of topics and knowledge about best practices added to your developer toolbox, the updated fourth edition ensures an enhanced learning experience.
@@ -22,9 +25,10 @@ By the end of this book, you'll be able to efficiently build and deploy real-wor
 - Write a comprehensive set of tests to create robust and maintainable code
 - Build high-performing applications by styling and optimizing React components
 
-
 ## Table of Contents
+
 ### Chapters
+
 1. Taking Your First Steps with React
 2. Introducing TypeScript
 3. Cleaning Up Your Code
@@ -45,8 +49,8 @@ By the end of this book, you'll be able to efficiently build and deploy real-wor
 
 > If you feel this book is for you, get your [copy](https://www.amazon.com/React-Design-Patterns-Best-Practices/dp/1803233109) today! <img alt="Coding" height="15" width="35"  src="https://media.tenor.com/ex_HDD_k5P8AAAAi/habbo-habbohotel.gif">
 
+### Following is what you need for this book:
 
-### Following is what you need for this book: ###
 To master React, you need to have a fundamental knowledge of JavaScript and Node.js. This book
 is mostly targeted at web developers, and, at the time of writing, the following assumptions were
 made of the reader:
@@ -56,7 +60,7 @@ made of the reader:
 
 ## Know more on the Discord server <img alt="Coding" height="25" width="32"  src="https://cliply.co/wp-content/uploads/2021/08/372108630_DISCORD_LOGO_400.gif">
 
-You can get more engaged on the discord server for more latest updates and discussions in the community at [https://packt.link/React18DesignPatterns4e](https://packt.link/React18DesignPatterns4e) 
+You can get more engaged on the discord server for more latest updates and discussions in the community at [https://packt.link/React18DesignPatterns4e](https://packt.link/React18DesignPatterns4e)
 
 ## Download a free PDF <img alt="Coding" height="25" width="40" src="https://emergency.com.au/wp-content/uploads/2021/03/free.gif">
 
@@ -65,6 +69,6 @@ _If you have already purchased a print or Kindle version of this book, you can g
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book at "https://packt.link/o1WtB" <img alt="Coding" height="15" width="35"  src="https://media.tenor.com/ex_HDD_k5P8AAAAi/habbo-habbohotel.gif">
 
-
 ## Get to Know the Author
+
 Carlos Santana Roldán is a senior web developer with more than 15 years of experience. Currently, he is working as a Principal Engineer at APM Music. He is the founder of JS Education, where he teaches people web technologies such as React, Node.js, JavaScript, and TypeScript.
