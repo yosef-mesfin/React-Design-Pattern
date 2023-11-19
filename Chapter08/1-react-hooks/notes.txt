@@ -1,0 +1,12 @@
+Rules:
+  1.Rule 1: Only call Hooks at the top level
+      avoid calling them inside loops, conditions, or nested functions. 
+      Instead, it is recommended to always use Hooks at the top
+      level of your React function.
+
+  2.Rule 2: Only call hooks from react functions
+      avoid calling Hooks from regular JavaScript functions.
+
+  Understanding Effects: 
+    Unlike componentDidMount and componentDidUpdate , the function that we pass to useEffect 
+    fires after layout and paint, during a deferred event.
