@@ -17,6 +17,7 @@ const initialTodos: Todo[] = [
 const App: FC = () => {
 	const [todoList, setTodoList] = useState<Todo[]>(initialTodos);
 	const [task, setTask] = useState<string>("");
+	const [term, setTerm] = useState("");
 
 	useEffect(() => {
 		console.log("Rendering <App />");
@@ -34,6 +35,20 @@ const App: FC = () => {
 		//resetting the task
 		setTask("");
 	};
+
+	const handleSearch = () => {
+		setTerm(task);
+	};
+
+	const filteredTodoList = useMemo(
+		() =>
+			todoList.filter((todo: Todo) => {
+				console.log("Filtering...");
+				return todo.task.toLowerCase().includes(term.toLowerCase());
+			}),
+		[term, todoList]
+	);
+
 	return (
 		<>
 			<input
@@ -42,6 +57,7 @@ const App: FC = () => {
 				onChange={(e: ChangeEvent<HTMLInputElement>) => setTask(e.target.value)}
 			/>
 			<button onClick={handleCreate}>Create</button>
+			<button onClick={handleSearch}>Search</button>
 			<List todoList={todoList} />
 		</>
 	);
