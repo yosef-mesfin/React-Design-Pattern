@@ -61,7 +61,7 @@ const Notes = () => {
 	const [notes, dispatch] = useReducer(reducer, initialState);
 	const [note, setNote] = useState<string>("");
 
-	const handleAdd = (e: FormEvent<HTMLFormElement>) => {
+	const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 
 		const newNote: Note = {
